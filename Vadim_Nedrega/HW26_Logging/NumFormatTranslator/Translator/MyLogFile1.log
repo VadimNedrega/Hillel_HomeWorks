@@ -1,0 +1,6 @@
+авг 03, 2021 2:02:08 PM NumFormatTranslatorTestJulLogging invalidDataBigString
+INFO: Some info1
+авг 03, 2021 2:02:08 PM NumFormatTranslatorTestJulLogging checkIfNull
+INFO: Some info
+авг 03, 2021 2:02:08 PM NumFormatTranslatorTestJulLogging checkIfEmpty
+INFO: Test has started

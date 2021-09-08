@@ -1,0 +1,18 @@
+<project name="FirstProject" default="copy" basedir="..">
+
+    <target name="path">
+        <property name="srcDir" value="D:\Обучение IT\Java Elementary\Test" />
+        <property name="dstDir" value="D:\Обучение IT\Java Elementary"      />
+    </target>
+
+    <target name="copy" description="Copy pictures file" depends="path">
+        <copy todir="D:\Обучение IT\Java Elementary">
+            <fileset dir="D:\Обучение IT\Java Elementary\Test">
+                <include name="**/*.png"/>
+                <include name="**/*.jpg"/>
+                <include name="**/*.bmp"/>
+            </fileset>
+        </copy>
+    </target>
+</project>
+
